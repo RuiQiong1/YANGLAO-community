@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 正确写法：item标签内部为空，仅保留属性 + 闭合标签 -->
+    <item name="btn_clean" type="id"/>
+    <item name="btn_medical" type="id"/>
+    <item name="btn_shop" type="id"/>
+    <item name="btn_sos_big" type="id"/>
+    <item name="btn_food" type="id"/>
+    <item name="btn_medicine" type="id"/>
+    <item name="nav_settings" type="id"/>
+    <item name="tv_nav_text" type="id" />
+    <item name="iv_back_shopping" type="id" />
+    <item name="btn_add_cart" type="id" />
+    <item name="iv_back_housekeeping" type="id" />
+    <item name="btn_book_housekeeping" type="id" />
+</resources>

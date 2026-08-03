@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 卡片圆角+黑色边框+浅灰背景，完全匹配你的设计稿 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 1. 卡片背景色：和设计稿一致的浅灰色，柔和不刺眼（适老设计） -->
+    <solid android:color="#F5F5F5" />
+
+    <!-- 2. 黑色边框：1dp细边框，清晰分隔卡片且不突兀 -->
+    <stroke
+        android:width="1dp"
+        android:color="#000000"
+        android:dashWidth="0dp" />
+
+    <!-- 3. 圆角半径：12dp大圆角，符合设计稿的圆润感（适老设计避免尖锐） -->
+    <corners android:radius="12dp" />
+
+    <!-- 可选：若设计稿有内边距，可添加padding（一般布局里加，这里注释备用） -->
+    <!-- <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" /> -->
+</shape>
